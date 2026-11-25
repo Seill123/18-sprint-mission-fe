@@ -135,11 +135,14 @@ main {
 
 .simple-login-img-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 
 .google-img,
 .kakao-img {
+  display: flex;
   width: 2.625rem;
   height: 2.625rem;
 }
